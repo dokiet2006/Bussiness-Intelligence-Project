@@ -1,0 +1,79 @@
+{
+  "movies_us": {
+    "input_rows": 1000,
+    "output_rows": 1000,
+    "duplicates_removed": 0,
+    "nulls_after": {
+      "rank": 0,
+      "movie_title": 0,
+      "domestic_gross_usd": 0,
+      "release_year": 0
+    }
+  },
+  "movies_worldwide": {
+    "input_rows": 1000,
+    "output_rows": 1000,
+    "duplicates_removed": 0,
+    "nulls_after": {
+      "rank": 0,
+      "movie_title": 0,
+      "worldwide_gross_usd": 0,
+      "domestic_gross_usd": 0,
+      "domestic_share": 0,
+      "foreign_gross_usd": 0,
+      "foreign_share": 0,
+      "release_year": 0
+    }
+  },
+  "franchises": {
+    "input_rows": 292,
+    "output_rows": 292,
+    "duplicates_removed": 0,
+    "nulls_after": {
+      "franchise": 0,
+      "total_gross_usd": 0,
+      "release_count": 0,
+      "top_movie": 0,
+      "top_movie_gross_usd": 0
+    }
+  },
+  "genres": {
+    "input_rows": 245,
+    "output_rows": 244,
+    "duplicates_removed": 1,
+    "nulls_after": {
+      "genre": 0,
+      "total_gross_usd": 0,
+      "title_count": 0,
+      "top_movie": 0,
+      "top_movie_gross_usd": 0
+    }
+  },
+  "brands": {
+    "input_rows": 45,
+    "output_rows": 45,
+    "duplicates_removed": 0,
+    "nulls_after": {
+      "brand": 0,
+      "total_gross_usd": 0,
+      "release_count": 0,
+      "top_movie": 0,
+      "top_movie_gross_usd": 0
+    }
+  },
+  "brand_source_comparison": {
+    "identical": true,
+    "rows_each": 45
+  },
+  "worldwide_revenue_discrepancies": 0,
+  "worldwide_share_discrepancies": 0,
+  "movies_combined": {
+    "rows": 1268,
+    "coverage": {
+      "both": 732,
+      "left_only": 268,
+      "right_only": 268
+    },
+    "domestic_gross_conflicts": 0
+  }
+}
